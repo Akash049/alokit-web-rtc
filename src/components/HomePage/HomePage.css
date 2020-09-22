@@ -1,0 +1,41 @@
+div#img-box {
+    background-image: url("../../bg.jpg");
+}
+
+#container{
+    /*background-color: black;*/
+    height:150px;
+    width:640px;
+    padding:300px 700px;
+}
+
+#background-box {
+    background-color:#FFFFFF;
+    height:140px;
+    width:600px;
+    margin:0px 20px;
+    border-radius: 5px;
+}
+
+#overlay-box {
+    background-color:#04796B;
+    height:70px;
+    width:640px;
+    margin:-135px 0px;
+    border-radius: 7px; 
+}
+
+#background-text {
+    columns:#000000;;
+    padding: 100px 175px;
+}
+
+#overlay-text {
+    color:#FFFFFF;
+    margin: -50px 70px;
+}
+
+#icon {
+    color: #FFFFFF;
+    padding: 25px 25px;
+}
