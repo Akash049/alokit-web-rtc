@@ -1,0 +1,102 @@
+body {
+  background-image: url("./bg.jpg");
+  width: 100%;
+  height: 100%;
+}
+.dash-main {
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+.input-box {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.test-box {
+  width: 28%;
+  height: 150px;
+  background-color: rgb(161, 159, 159);
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.green-box {
+  width: 30%;
+  background-color: #04796b;
+  z-index: 1;
+  position: absolute;
+  top: 51%;
+  left: 55%;
+  color: white;
+  border-radius: 5px;
+  font-size: 150%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.display-text {
+  margin-top: 110px;
+  margin-bottom: 0px;
+}
+
+.join-text:hover {
+  cursor: pointer;
+}
+
+. .modal-head {
+  float: left;
+  margin-bottom: -10px;
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.info-text {
+  display: block;
+  /* margin-top: 10px; */
+  float: left;
+  font-size: 20px;
+}
+
+.input-line {
+  width: 100%;
+  /* margin-top: 10px; */
+  height: 52px;
+  border: 2px solid #04796b;
+  border-radius: 5px;
+}
+
+.footer-text {
+  /* margin-top: 25px; */
+  float: left;
+  color: #04796b;
+  font-size: 25px;
+  margin-right: 35%;
+  font-weight: bold;
+  margin-right: 1000px;
+  display: inline-block;
+}
+
+.footer-text:hover {
+  cursor: pointer;
+}
+
+.continue-button {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #04796b;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  /* padding: 10px 20px; */
+}
